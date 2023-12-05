@@ -1,7 +1,7 @@
-export const AcButton = () => {
+export const AcButton = ({ text }) => {
   return (
     <>
-      <button type=""></button>
+     <button type="button">{text}</button>
     </>
   );
 };
